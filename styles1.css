@@ -3,7 +3,7 @@
     background: linear-gradient(to right, rgba(255, 87, 51, 0.7), rgba(255, 0, 150, 0.7)), url('../images/about-header.jpg');
     background-size: cover;
     background-position: center;
-    color: #8f9cc0;
+    color: #dea1a1;
     text-align: center;
     padding: 100px 20px;
 }
@@ -33,7 +33,7 @@
 
 /* Core Values Section */
 .values {
-    background-color: #f7f7f7;
+    background-color: #4f7bb8;
     padding: 50px 20px;
     text-align: center;
 }
@@ -50,10 +50,10 @@
 }
 
 .value-card {
-    background-color: #fff;
+    background-color: #cfe6e2;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 8px rgba(84, 36, 36, 0.1);
     max-width: 250px;
     text-align: center;
 }
