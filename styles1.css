@@ -20,7 +20,7 @@
 
 /* Company History Section */
 .history {
-    background: linear-gradient(to left, rgba(255, 200, 54), rgba(99, 33, 12));
+    background: linear-gradient(to left, rgba(255, 200, 54), rgb(224, 135, 108));
     text-align: center;
     padding: 50px 20px;
 }
