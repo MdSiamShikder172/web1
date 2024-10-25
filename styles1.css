@@ -67,6 +67,7 @@
 
 /* Team Section */
 .team {
+    background: linear-gradient(to left, rgb(43, 59, 57), rgb(181, 157, 149));
     padding: 50px 20px;
     text-align: center;
 }
