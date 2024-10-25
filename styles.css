@@ -9,12 +9,14 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #333;
     line-height: 1.6;
+    background-color: #f0f0f5;
 }
 
+/* Navbar */
 header {
-    background: #333;
+    background: linear-gradient(to right, #333, #555);
     color: #fff;
-    padding: 1rem 0;
+    padding: 10px 0;
     text-align: center;
 }
 
@@ -26,12 +28,12 @@ header {
 }
 
 .navbar a:hover {
-    color: #ddd;
+    color: #ff5733;
 }
 
-/* Hero Section */
+/* Hero Section with Gradient and Button Animation */
 .hero {
-    background-image: url('../images/hero.jpg');
+    background: linear-gradient(to right, rgba(255, 87, 51, 0.7), rgba(255, 0, 150, 0.7)), url('../images/hero.jpg');
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -50,50 +52,115 @@ header {
     margin-bottom: 20px;
 }
 
-.hero .btn {
+.btn-animated {
     background-color: #ff5733;
     color: #fff;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-.hero .btn:hover {
+.btn-animated:hover {
     background-color: #e04e25;
+    transform: scale(1.1);
 }
 
-/* Flexbox and Grid Layout */
-.flex-container {
+/* Mission Section */
+.mission {
+    background: url('../images/mission-bg.jpg') center/cover no-repeat;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+.mission h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+/* Services Section with Hover Effects */
+.services {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.service-cards {
     display: flex;
     justify-content: space-around;
-    padding: 20px;
-}
-
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 20px;
+}
+
+.card {
+    background-color: #fff;
     padding: 20px;
-}
-
-/* Images */
-img {
-    width: 100%;
-    height: auto;
     border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
+    width: 100%;
+    max-width: 250px;
 }
 
-img:hover {
-    transform: scale(1.05);
+.card:hover {
+    transform: translateY(-10px);
 }
 
-/* Footer */
-footer {
+.card h3 {
+    margin-bottom: 10px;
+    color: #ff5733;
+}
+
+.btn-small {
+    font-size: 0.9em;
+    color: #ff5733;
+    text-decoration: none;
+}
+
+/* Testimonials Slider */
+.testimonials {
+    padding: 50px;
+    background-color: #f7f7f7;
     text-align: center;
+}
+
+.testimonial-slider {
+    display: flex;
+    overflow: auto;
+    gap: 20px;
+}
+
+.testimonial {
+    flex: 0 0 80%;
+    max-width: 300px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial h4 {
+    margin-top: 15px;
+    color: #333;
+}
+
+/* Footer with Social Media Icons */
+footer {
     background: #333;
     color: #fff;
-    padding: 10px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.social-links a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-links img {
+    width: 24px;
+    transition: transform 0.3s;
+}
+
+.social-links img:hover {
+    transform: scale(1.2);
 }
