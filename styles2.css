@@ -1,6 +1,6 @@
 /* Hero Section for Services Page */
 .hero-services {
-    background: linear-gradient(to right, rgba(0, 128, 255, 0.7), rgba(0, 204, 153, 0.7)), url('../images/hero-services.jpg');
+    background: linear-gradient(to right, rgba(102, 126, 234, 0.8), rgba(118, 75, 162, 0.8)), url('../images/hero-services.jpg');
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -20,12 +20,13 @@
 
 /* Services Grid */
 .services-grid {
-    background: #007acc;
+    background: #ffb3b3; /* Light coral background */
     padding: 50px 20px;
     text-align: center;
 }
 
 .services-grid h2 {
+    color: #333;
     margin-bottom: 40px;
     font-size: 2em;
 }
@@ -37,7 +38,7 @@
 }
 
 .service-card {
-    background-color: #8d5959;
+    background-color: #f0f0f0; /* Light gray background for cards */
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -59,7 +60,7 @@
 .service-card h3 {
     margin: 15px 0;
     font-size: 1.2em;
-    color: #007acc;
+    color: #333;
 }
 
 .service-card p {
@@ -70,12 +71,13 @@
 
 /* Testimonials Section */
 .testimonials {
-    background-color: #737e38;
+    background-color: #b3e0ff; /* Light blue background */
     padding: 50px 20px;
     text-align: center;
 }
 
 .testimonials h2 {
+    color: #333;
     margin-bottom: 20px;
     font-size: 1.8em;
 }
@@ -90,7 +92,7 @@
 .testimonial {
     flex: 0 0 80%;
     max-width: 300px;
-    background: rgb(235, 166, 102);
+    background: #ffe6cc; /* Light peach background for testimonials */
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
@@ -99,19 +101,19 @@
 
 .testimonial p {
     font-size: 1em;
-    color: #000000;
+    color: #333;
     margin-bottom: 10px;
 }
 
 .testimonial h4 {
     font-size: 0.9em;
-    color: #000000;
+    color: #ff7f50; /* Coral color for names */
     margin-top: 10px;
 }
 
 /* Footer with Social Links */
 footer {
-    background-color: #333;
+    background-color: #1f1f1f; /* Dark gray background for footer */
     color: #fff;
     padding: 20px;
     text-align: center;
