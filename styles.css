@@ -21,16 +21,25 @@ header {
 }
 
 .navbar a {
-    color: #fff;
-    padding: 0 15px;
     text-decoration: none;
-    transition: color 0.3s ease;
+    color: #ffffff;
+    background-color: #007acc; /* Button color */
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .navbar a:hover {
-    color: #ff5733;
+    background-color: #005f99; /* Darker shade on hover */
+    transform: scale(1.05); /* Slight scaling effect */
 }
 
+.navbar a:active {
+    background-color: #004c80; /* Even darker shade on click */
+    transform: scale(0.95); /* Button pressed effect */
+}
 /* Hero Section with Gradient and Button Animation */
 .hero {
     background: linear-gradient(to right, rgba(255, 87, 51, 0.7), rgba(255, 0, 150, 0.7)), url('../images/hero.jpg');
