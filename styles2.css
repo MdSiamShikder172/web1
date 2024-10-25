@@ -1,0 +1,131 @@
+/* Hero Section for Services Page */
+.hero-services {
+    background: linear-gradient(to right, rgba(0, 128, 255, 0.7), rgba(0, 204, 153, 0.7)), url('../images/hero-services.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-services h1 {
+    font-size: 2.5em;
+    font-family: 'Lobster', cursive;
+    margin-bottom: 10px;
+}
+
+.hero-services p {
+    font-size: 1.2em;
+}
+
+/* Services Grid */
+.services-grid {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.services-grid h2 {
+    margin-bottom: 40px;
+    font-size: 2em;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.service-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    text-align: center;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+.service-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.service-card h3 {
+    margin: 15px 0;
+    font-size: 1.2em;
+    color: #007acc;
+}
+
+.service-card p {
+    padding: 0 15px 20px;
+    font-size: 0.9em;
+    color: #666;
+}
+
+/* Testimonials Section */
+.testimonials {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.testimonials h2 {
+    margin-bottom: 20px;
+    font-size: 1.8em;
+}
+
+.testimonial-slider {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+
+.testimonial {
+    flex: 0 0 80%;
+    max-width: 300px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    scroll-snap-align: start;
+}
+
+.testimonial p {
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.testimonial h4 {
+    font-size: 0.9em;
+    color: #007acc;
+    margin-top: 10px;
+}
+
+/* Footer with Social Links */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-links a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-links img {
+    width: 24px;
+    transition: transform 0.3s;
+}
+
+.social-links img:hover {
+    transform: scale(1.2);
+}
