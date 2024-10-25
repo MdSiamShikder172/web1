@@ -20,12 +20,13 @@
 
 /* Company History Section */
 .history {
+    background: linear-gradient(to left, rgba(255, 200, 54), rgba(99, 33, 12));
     text-align: center;
     padding: 50px 20px;
 }
 
 .history img {
-    background: linear-gradient(to left, rgba(255, 200, 54), rgba(99, 33, 12));
+    
     width: 100%;
     max-width: 600px;
     border-radius: 10px;
