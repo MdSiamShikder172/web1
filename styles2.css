@@ -105,14 +105,14 @@
 
 .testimonial h4 {
     font-size: 0.9em;
-    color: #007acc;
+    color: #aacc00;
     margin-top: 10px;
 }
 
 /* Footer with Social Links */
 footer {
     background-color: #333;
-    color: #f08d8d;
+    color: #fff;
     padding: 20px;
     text-align: center;
 }
