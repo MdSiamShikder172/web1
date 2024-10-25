@@ -1,4 +1,27 @@
 /* Hero Section for Services Page */
+/* Back Button Styling */
+.back-button {
+    background-color: #007acc; /* Button color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    margin: 20px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.back-button:hover {
+    background-color: #005f99; /* Darker shade on hover */
+    transform: translateY(-3px); /* Slight lift effect */
+}
+
+.back-button:active {
+    background-color: #004c80; /* Even darker shade on click */
+    transform: translateY(1px); /* Pressed effect */
+}
+
 .hero-services {
     background: linear-gradient(to right, rgba(102, 126, 234, 0.8), rgba(118, 75, 162, 0.8)), url('../images/hero-services.jpg');
     background-size: cover;
