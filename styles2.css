@@ -20,6 +20,7 @@
 
 /* Services Grid */
 .services-grid {
+    background: linear-gradient(to right, rgba(56, 213, 171, 0.7), rgba(0, 204, 153, 0.7))
     padding: 50px 20px;
     text-align: center;
 }
